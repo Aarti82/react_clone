@@ -1,0 +1,82 @@
+
+
+.scroll-container {
+  height: 700px;
+  width: 300px;
+  overflow-y: scroll; /* Scrollbar appears when content overflows vertically */
+  border-left: 1px solid #ccc;
+  background-color: #2d395c;
+  color: rgb(205, 203, 203);
+  font-family:Sans-serif;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.button-item{
+    width: 80%;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    color: aliceblue;
+    background-color:#031333;
+    padding: 5px;
+    font-size: 17px;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
+.p1, .p2, .p3{
+    margin-top: 20px;
+    
+}
+.p1{
+    font-weight:bold;
+    /* padding: 10px 0px 0px 10px; */
+    font-family:'Sans-serif''Solway';
+    color: #dededf;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+
+.p2{
+    font-size: 15px;
+    text-indent: 2px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.p3{
+    color: aliceblue;
+    font-size: 15px;
+    padding: 10px 0px 0px 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+   border-radius: 0px 50px 50px 0px;
+   font-weight: bold;   
+}
+
+.p3:hover{
+    background-color: #d4d4d4;
+   color: #7f8fad;
+}
+
+.hr1{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+   border-color: #7a7c82;
+
+}
+

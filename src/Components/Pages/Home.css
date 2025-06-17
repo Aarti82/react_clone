@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #18213b;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero button:hover {
+  background-color: #0097a7;
+}
+
+/* Features Section */
+.features {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.features ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.features li {
+  background-color: #e3f2fd;
+  padding: 15px 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  font-size: 1rem;
+}

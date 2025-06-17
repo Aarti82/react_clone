@@ -1,0 +1,42 @@
+.left-sidebar {
+  height: 700px;
+  width: 300px;
+  overflow-y: auto;
+  background-color:  #2d395c;
+  font-family: Sans-serif;
+  
+ }
+.text{
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border-radius: 50px 0px 0px 50px;
+    font-weight: bold; 
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: justify;
+   
+}
+
+.text:hover{
+    background-color: #d4d4d4;
+    color: #7f8fad;
+}
+.heading{
+    font-weight:bold;
+    font-family:'Sans-serif''Solway';
+    color: #dededf;
+    margin-top: 30px;
+    padding-left: 10px;
+  
+}
+
+.heading1{
+    font-weight:500;
+    font-family:'Sans-serif''Solway';
+    color: #dededf;
+    padding-left: 10px;
+    margin-top: 20px;
+}
